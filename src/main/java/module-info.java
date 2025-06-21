@@ -6,4 +6,6 @@ module com.example.ilaxzworldz {
 
     opens com.example.ilaxzworldz to javafx.fxml;
     exports com.example.ilaxzworldz;
+    exports com.example.ilaxzworldz.controller;
+    opens com.example.ilaxzworldz.controller to javafx.fxml;
 }
